@@ -4,11 +4,9 @@ import BannerImage from '../assets/pizza.jpeg';
 import '../styles/Home.css';
 const Home = () => {
   return (
-    <div className='home'>
+    <div className='home' style={{ backgroundImage: `url(${BannerImage})` }}>
       <div
-        className='headerContainer'
-        style={{ backgroundImage: `url(${BannerImage})` }}
-      >
+        className='headerContainer' >
         <h1>MB Bilverkstad</h1>
         <p>Malmös äldsta Bilverkstad</p>
         <Link to='/menu'>

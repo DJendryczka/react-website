@@ -3,7 +3,7 @@
     height: 90vh;
     display: flex;
     justify-content: center;
-    align-items: left;
+    align-items: center;
     flex-direction: column;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,7 +13,7 @@
   
   .headerContainer {
     width: auto;
-    margin-left: 50px;
+    margin-left: 250px;
   }
   
   .headerContainer h1 {
@@ -22,7 +22,7 @@
     font-size: 90px;
     height: 60px;
     font-weight: 50;
-    color: black;
+    color: rgb(19, 60, 195);
   }
   
   .headerContainer p {
@@ -41,6 +41,7 @@
     background-color: #121619;
     height: 50px;
     width: 180px;
+    margin: 10px;
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -57,9 +58,7 @@
       justify-content: center;
       align-items: center;
     }
-    .headerContainer h1,
-    .headerContainer p {
-    }
+    
   
     .headerContainer {
       margin-left: 0px;
@@ -70,7 +69,7 @@
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      background-color: #121619;
+      background-color: #121619a5;
       color: white;
     }
   
